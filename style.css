@@ -28,10 +28,13 @@ body {
 
 
 .header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px 200px;
+  border-bottom: solid #f9faf8 1px;
 }
 
 .header-logo {
