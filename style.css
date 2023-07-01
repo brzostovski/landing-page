@@ -14,8 +14,7 @@ body {
   justify-content: space-between;
 }
 
-.header,
-.footer {
+.header {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
@@ -120,4 +119,14 @@ button.sign-up {
   text-align: center;
   font-size: 14px;
   color: #1f2937;
+}
+
+.quote-section {
+  background-color: e5e7eb;
+}
+
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 16px 200px;
 }
