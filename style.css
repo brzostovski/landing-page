@@ -136,7 +136,8 @@ button.sign-up {
 }
 
 .quote-author {
-
+  font-weight: bold;
+  text-align: right;
 }
 
 .footer {
