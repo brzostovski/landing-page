@@ -22,11 +22,12 @@ body {
 }
 
 .header,
-.top-section,
+.top-section {
+  background-color: #1f2937;
+}
 
 
 .header {
-  background-color: #1f2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,7 +58,6 @@ a {
 }
 
 .top-section {
-  background-color: #1f2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
