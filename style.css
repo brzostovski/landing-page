@@ -92,6 +92,16 @@ button.sign-up {
   cursor: pointer;
 }
 
+button.sign-up:hover,
+button.sign-up:active {
+  background-color: #f9faf8;
+  color: #1f2937;
+}
+
+button.sign-up:active {
+  transform: scale(0.97);
+}
+
 .site-description > button.sign-up {
   border-style: none;
   margin-top: 16px;
