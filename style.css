@@ -1,3 +1,7 @@
+:root {
+  --ANIMATION-DURATION: 200ms;
+}
+
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -84,6 +88,11 @@ a {
   color: #f9faf8;
 }
 
+button.sign-up,
+.image-subtext > img {
+  transition-duration: var(--ANIMATION-DURATION);
+}
+
 button.sign-up {
   background-color: #3882f6;
   color: #f9faf8;
@@ -92,14 +101,13 @@ button.sign-up {
   cursor: pointer;
 }
 
-button.sign-up:hover,
-button.sign-up:active {
+button.sign-up:hover {
   background-color: #f9faf8;
   color: #1f2937;
 }
 
 button.sign-up:active {
-  transform: scale(0.97);
+  transform: scale(0.97) translateY(2px);
 }
 
 .site-description > button.sign-up {
@@ -133,7 +141,6 @@ button.sign-up:active {
   object-fit: cover;
   height: 128px;
   width: 128px;
-  transition-duration: 200ms;
   cursor: pointer;
 }
 
