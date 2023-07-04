@@ -134,6 +134,7 @@ button.sign-up:active {
   height: 128px;
   width: 128px;
   transition-duration: 200ms;
+  cursor: pointer;
 }
 
 .image-subtext > .subtext {
@@ -143,6 +144,11 @@ button.sign-up:active {
 
 .image-subtext > img:hover {
   transform: scale(1.05);
+}
+
+.image-subtext > img:active {
+  transform: scale(1.03);
+  transform: translateY(5px);
 }
 
 .quote-section {
